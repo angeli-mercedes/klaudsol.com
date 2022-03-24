@@ -2,7 +2,7 @@ import React from  'react';
 import AboutUs from '../components/about-us';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
-import content from './content';
+
 export default function SarisukiPortfolio(sarisuki){
     const{port} = sarisuki
     return(
