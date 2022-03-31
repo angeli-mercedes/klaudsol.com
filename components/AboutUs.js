@@ -1,4 +1,4 @@
-import portfolio_content from "../portfolio_content.json";
+import portfolio_content from "@/components/PortfolioContent.json"
 import { useRouter } from "next/router";
 export default function AboutUs(){
     const router = useRouter();
