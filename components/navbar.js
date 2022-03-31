@@ -37,6 +37,7 @@ export default function Navbar({navset = 'default'}){
             </button>*/}
             </div>
             <div className="navbar-collapse collapse">
+              <nav>
                 {navset === 'default' && (
                   <NavBarDefault /> 
                 )}
@@ -44,6 +45,7 @@ export default function Navbar({navset = 'default'}){
                 {navset === 'portfolio' && (
                   <NavBarPortfolio />
                 )}
+                </nav>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from  'react'; 
 import Footer from '@/components/footer'
-import Navbar from '@/components/navbar';
+import Navbar from '@/components/NavBar';
 import { useRouter } from "next/router";
 import portfolio_content from "@/components/portfolio_content.json"
 import Script from 'next/script';

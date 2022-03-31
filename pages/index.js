@@ -1,13 +1,10 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import Navbar from '@/components/navbar';
-import Portfolio from '@/components/portfolio';
+import Navbar from '@/components/NavBar';
+import Portfolio from '@/components/Portfolio';
 import Footer from '@/components/footer';
 import runLegacyScripts from '@/components/legacy';
 import { useEffect }  from 'react';
 import $ from "jquery";
-import { useRouter } from 'next/router';
 import ContactUsForm from '@/components/ContactUs';
 
 export default function Home() {
@@ -613,8 +610,10 @@ export default function Home() {
   
     </section>
     News area end */}
+
   {/* Subscribe area starts */}
   <section id="subscribe" className="subscribe-area section-big">
+    
     <div className="container">
       <div className="row">
         <div className="col-md-12 text-center">
@@ -659,6 +658,7 @@ export default function Home() {
         </div>
       </div>
     </div>
+
   </section>
   {/* Subscribe area ends */}
   
